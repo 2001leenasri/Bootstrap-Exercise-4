@@ -1,0 +1,399 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.col-xl-9{
+    position: relative;
+    top: 40px;
+    border-radius: 10px;
+}
+.col-xl-3{
+    position: relative;
+    top: 40px;
+    left: 30px;
+    border-radius: 10px;
+}
+.switch3 {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    top: 0px;
+    left:550px;
+}
+.switch3 input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.bx-moon{
+    font-size: large;
+    position: relative;
+    top: 5px;
+    left: 550px;
+}
+.bx-sun{
+    font-size: large;
+    position: relative;
+    top: 5px;
+    left: 440px;
+}
+.form-group label{
+    font-weight: 500;
+    font-size: small;
+}
+.form-group input::placeholder{
+    font-weight: 500;
+    font-size: small;
+}
+#date{
+    width: 100%;
+    position: relative;
+    left: 10px;
+}
+#date1{
+    width: 109%;
+    position: relative;
+    left: 10px;
+}
+#item{
+    width: 180%;
+    position: relative;
+    left: 10px;
+}
+#Qty{
+    width: 40%;
+    position: relative;
+    left: 190px;
+    top: 10px;
+}
+#Rate{
+    width: 60%;
+    position: relative;
+    left: 80px;
+    top: 10px;
+}
+#Line{
+    width: 60%;
+    position: relative;
+    left: 10px;
+    top: -3px;
+}
+#comment{
+    width: 44.5%;
+    position: relative;
+    left: 10px;
+    top: -3px;
+}
+.btn1{
+    position: relative;
+    top: -40px;
+    left: 770px;
+    border: none;
+}
+.pwd{
+    position: relative;
+    left: 180px;
+}
+.Rate{
+    position: relative;
+    left: 70px;
+}
+.Line{
+    position: relative;
+    left: 40px;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color:white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    top: 0px;
+    left: 0px;
+}
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.switch1 {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    top: 0px;
+    left: 40px;
+}
+.switch1 input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.switch2 {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    top: 0px;
+    left:80px;
+}
+.switch2 input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.EUR{
+    position: relative;
+    top: 0px;
+    left:250px;
+}
+.AMD{
+    position: relative;
+    top: -20px;
+    left:250px;
+}
+.Total{
+    position: relative;
+    top: 20px;
+}
+#voice{
+    height: 8vh;
+}
+#voice::placeholder{
+    color: black;
+    font-size: large;
+    height: 8vh;
+}
+.btn2{
+    position: relative;
+    left: 20px;
+    width: 40%;
+    border: none;
+}
+input [type=text],select{
+    width: 230%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: relative;
+    top: -20px;
+}
+#save{
+   width: 320%;
+   position: relative;
+   left: -15px;
+}
+.maincontainer{
+    position: relative;
+    top: 40px;
+}
+.maincontainer .container{
+    border-radius: 10px;
+    position: relative;
+    top: 40px;
+}
+.paragraph{
+    top: 0px;
+    width: 60%;
+    position: relative;
+    left: 230px;
+}
+.navcontainer{
+    position: relative;
+    top: 100px;
+    height: 10vh;
+    padding: 25px;
+}
+.social i{
+    font-size: x-large;
+    color: grey;
+    position: relative;
+    left: 350px;
+}
+
+
+
+
+
+
+
+@media (min-width:320px) and (max-width:1024px) {
+    .col-xl-3{
+        position: relative;
+        top: 60px;
+        left: 0px;
+    }
+    .switch3 {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+        top: 0px;
+        left:60px;
+    }
+    .bx-moon{
+        position: relative;
+        top: 5px;
+        left: 60px;
+    }
+    .bx-sun{
+        position: relative;
+        top: 5px;
+        left: -47px;
+    }
+    #date{
+        width: 127%;
+        position: relative;
+        left: 0px;
+    }
+    #date1{
+        width: 127%;
+        position: relative;
+        left: 0px;
+    }
+    .name,.pwd,.Rate,.Line{
+      display: none;
+    }
+    #item{
+        width: 120%;
+        position: relative;
+        left: 12px;
+        top: -30px;
+    }
+    #Qty{
+        width: 120%;
+        position: relative;
+        left: 12px;
+        top: -25px;
+    }
+    #Rate{
+        width: 120%;
+        position: relative;
+        left: 12px;
+        top: -20px;
+    }
+    #Line{
+        width: 120%;
+        position: relative;
+        left: 12px;
+        top: -15px;
+    }
+    #comment{
+        width: 90%;
+        position: relative;
+        left: 12px;
+        top: -10px;
+    }
+    .btn1{
+        position: relative;
+        top: 90px;
+        left: -190px;
+        border: none;
+    }
+    .comment-line{
+        position: relative;
+        top: 15px;
+    }
+    .EUR{
+        position: relative;
+        top: 0px;
+        left:190px;
+    }
+    .AMD{
+        position: relative;
+        top: -25px;
+        left:190px;
+    }
+    #save{
+        width: 112%;
+        position: relative;
+        left: -15px;
+     }
+     input [type=text],select{
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        position: relative;
+        top: -20px;
+    }
+    .line2{
+        width: 45%;
+    }
+    .paragraph{
+        width: 100%;
+        position: relative;
+        left: 0px;
+    }
+    .maincontainer{
+        position: relative;
+        top: 60px;
+    }
+    .maincontainer .container{
+        border-radius: 10px;
+        position: relative;
+        top: 40px;
+    }
+    .navcontainer{
+        position: relative;
+        top: 150px;
+        height: 20vh;
+        padding: 25px;
+    }
+    .social i{
+        font-size: x-large;
+        color: grey;
+        position: relative;
+        left: 30px;
+    }
+}
